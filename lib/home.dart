@@ -34,10 +34,26 @@ class Home extends StatelessWidget {
                 accountName: Text('Rohanur rahman',style: TextStyle(color: Colors.black),),
                 accountEmail: Text('Rohanurahmanontu@gmail.com',style: TextStyle(color: Colors.black)),
               ),),
-              ListTile(leading: Icon(Icons.category),title: Text('Top category'),),
-              ListTile(leading: Icon(Icons.dashboard_customize),title: Text('Seasonal'),),
-              ListTile(leading: Icon(Icons.category),title: Text('Foregien'),),
-              ListTile(leading: Icon(Icons.category),title: Text('Others'),),
+              ListTile(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));
+                },
+                leading: Icon(Icons.category),title: Text('Top category'),),
+              ListTile(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));
+                },
+                leading: Icon(Icons.dashboard_customize),title: Text('Seasonal'),),
+              ListTile(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));
+                },
+                leading: Icon(Icons.category),title: Text('Foregien'),),
+              ListTile(
+                onTap: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));
+                },
+                leading: Icon(Icons.category),title: Text('Others'),),
 
             ],
           ),
@@ -67,7 +83,7 @@ class Home extends StatelessWidget {
                     child: Row(
                       children: [
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));},
                             child: Text(
                               'Top',
                               style: TextStyle(
@@ -76,7 +92,7 @@ class Home extends StatelessWidget {
                             )),
                         VerticalDivider(),
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));},
                             child: Text(
                               'Seasonal',
                               style: TextStyle(
@@ -85,7 +101,7 @@ class Home extends StatelessWidget {
                             )),
                         VerticalDivider(),
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));},
                             child: Text(
                               'Foregien',
                               style: TextStyle(
@@ -94,7 +110,7 @@ class Home extends StatelessWidget {
                             )),
                         VerticalDivider(),
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));},
                             child: Text(
                               'Dry Fruit',
                               style: TextStyle(
@@ -103,7 +119,7 @@ class Home extends StatelessWidget {
                             )),
                         VerticalDivider(),
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));},
                             child: Text(
                               'Fiver',
                               style: TextStyle(
@@ -112,7 +128,7 @@ class Home extends StatelessWidget {
                             )),
                         VerticalDivider(),
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));},
                             child: Text(
                               'Nuts',
                               style: TextStyle(
@@ -121,7 +137,7 @@ class Home extends StatelessWidget {
                             )),
                         VerticalDivider(),
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));},
                             child: Text(
                               'Juice',
                               style: TextStyle(
@@ -130,7 +146,7 @@ class Home extends StatelessWidget {
                             )),
                         VerticalDivider(),
                         TextButton(
-                            onPressed: () {},
+                            onPressed: () {Navigator.push(context, MaterialPageRoute(builder: (context)=>Cart()));},
                             child: Text(
                               'Frozen',
                               style: TextStyle(
