@@ -54,11 +54,11 @@ class Home extends StatelessWidget {
                   padding: EdgeInsets.only(left: 20),
                   child: Text(
                     'Top Items',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
+                    style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
                   ),
                 ),
                 SizedBox(
-                  height: 50,
+                  height: 70,
                 ),
                 SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
@@ -72,7 +72,7 @@ class Home extends StatelessWidget {
                               'Top',
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontWeight: FontWeight.w700),
+                                  fontWeight: FontWeight.w700,fontSize: 20),
                             )),
                         VerticalDivider(),
                         TextButton(
@@ -81,7 +81,7 @@ class Home extends StatelessWidget {
                               'Seasonal',
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontWeight: FontWeight.w700),
+                                  fontWeight: FontWeight.w700,fontSize: 20),
                             )),
                         VerticalDivider(),
                         TextButton(
@@ -90,7 +90,7 @@ class Home extends StatelessWidget {
                               'Foregien',
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontWeight: FontWeight.w700),
+                                  fontWeight: FontWeight.w700,fontSize: 20),
                             )),
                         VerticalDivider(),
                         TextButton(
@@ -99,7 +99,7 @@ class Home extends StatelessWidget {
                               'Dry Fruit',
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontWeight: FontWeight.w700),
+                                  fontWeight: FontWeight.w700,fontSize: 20),
                             )),
                         VerticalDivider(),
                         TextButton(
@@ -108,7 +108,7 @@ class Home extends StatelessWidget {
                               'Fiver',
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontWeight: FontWeight.w700),
+                                  fontWeight: FontWeight.w700,fontSize: 20),
                             )),
                         VerticalDivider(),
                         TextButton(
@@ -117,7 +117,7 @@ class Home extends StatelessWidget {
                               'Nuts',
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontWeight: FontWeight.w700),
+                                  fontWeight: FontWeight.w700,fontSize: 20),
                             )),
                         VerticalDivider(),
                         TextButton(
@@ -126,7 +126,7 @@ class Home extends StatelessWidget {
                               'Juice',
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontWeight: FontWeight.w700),
+                                  fontWeight: FontWeight.w700,fontSize: 20),
                             )),
                         VerticalDivider(),
                         TextButton(
@@ -135,14 +135,14 @@ class Home extends StatelessWidget {
                               'Frozen',
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontWeight: FontWeight.w700),
+                                  fontWeight: FontWeight.w700,fontSize: 20),
                             )),
                       ],
                     ),
                   ),
                 ),
                 SizedBox(
-                  height: 30,
+                  height: 40,
                 ),
                 Column(
                   children: [
@@ -913,13 +913,30 @@ class Home extends StatelessWidget {
                                 ],
                               ),
                             ),
-                            VerticalDivider(),
                           ],
                         ),
                       ),
                     ),
                   ],
                 ),
+                SizedBox(
+                  height: 100,
+                ),
+                Padding(padding: EdgeInsets.only(left: 30,right: 30),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('Description',style: TextStyle(fontSize: 40,fontWeight: FontWeight.w600),),
+                    SizedBox(
+                      height: 16,
+                    ),
+                    Text('Now, it is time to indulge in the gastronomic marvel that is the Exquisite Golden Gem Mango. With a gentle slice, the knife glides effortlessly through its tender flesh, revealing a luscious golden core that beckons your taste buds. Each bite unleashes a burst of sweetness, a harmonious fusion of honeyed nectar, citrusy undertones, and a subtle hint of tropical paradise.The Exquisite Golden Gem Mangos texturea masterpiece itself. Its velvety smoothness melts upon contact your palate, leaving a delectable, lingering richness. Each bite  an orchestra of flavors a delicate balance of sweetness and acidity, culminating a sublime tropical symphony that dances on your taste buds',style: TextStyle(fontSize: 18),),
+                    SizedBox(
+                      height: 10,
+                    )
+                  ],
+                ),
+                )
               ],
             ) ,
           ),
